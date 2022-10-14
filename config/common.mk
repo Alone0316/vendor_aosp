@@ -101,6 +101,10 @@ OVERRIDE_TARGET_FLATTEN_APEX := true
 SYSTEM_OPTIMIZE_JAVA := true
 SYSTEMUI_OPTIMIZE_JAVA := true
 
+# TouchGestures
+PRODUCT_PACKAGES += \
+    TouchGestures
+
 # Bootanimation
 include vendor/aosp/config/bootanimation.mk
 
